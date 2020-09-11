@@ -1,0 +1,33 @@
+@import 'variables';
+
+/* CALCULATOR CONTAINER */
+#calculator-container {
+  width: 50%;
+  height: 60%;
+  max-width: 400px;
+  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:
+    "display display display display"
+    "clear clear equal equal"
+    "numbers numbers numbers operations"
+    "numbers numbers numbers operations"
+    "numbers numbers numbers operations"
+    "zero zero decimal operations";
+  
+  border: 3px solid $accent-color;
+}
+
+.grid-display { grid-area: display; }
+.grid-clear { grid-area: clear; }
+.grid-equal { grid-area: equal; }
+.grid-numbers { grid-area: numbers; }
+.grid-zero { grid-area: zero; }
+.grid-decimal { grid-area: decimal; }
+.grid-operations { grid-area: operations; }
+
+#display-container, 
+#clear, 
+#equals { color: white; }

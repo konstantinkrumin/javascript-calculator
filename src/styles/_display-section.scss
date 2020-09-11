@@ -1,0 +1,19 @@
+@import 'variables';
+
+/* DISPLAY SECTION */
+#display-container {
+  background: $middle-gray;
+  text-align: right;
+  word-wrap: break-word;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#formula-display, #display { margin: 0.25em; }
+
+#formula-display { 
+  color: $accent-color; 
+  font-size: $formula-display-font-size;
+}

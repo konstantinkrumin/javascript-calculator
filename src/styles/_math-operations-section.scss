@@ -1,0 +1,16 @@
+@import 'variables';
+
+/* MATH OPERATIONS SECTION */
+#operations {
+  display: flex;
+  flex-direction: column;
+}
+
+.operation-element {
+  background: $dark-gray;
+  height: 25%;
+}
+
+#clear { background: $red-color; }
+
+#equals { background: $blue-color; }

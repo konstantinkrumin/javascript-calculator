@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import 'variables';
+@import 'buttons';
+@import 'calculator-container';
+@import 'display-section';
+@import 'numbers-section';
+@import 'math-operations-section';
+@import 'media-queries-landscape';
+@import 'media-queries-portrait';
+
+/* MAIN */
+* { margin: 0; }
+
+#main-window {
+  width: 100%;
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-family: $main-font;
+  background: $light-gray;
+  
+  font-size: $main-font-size;
+}

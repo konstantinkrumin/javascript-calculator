@@ -1,0 +1,16 @@
+/* MEDIA QUERIES (PORTRAIT) */
+@media (max-width: 570px) {
+  #calculator-container { width: 60%; }
+}
+
+@media (max-width: 470px) {
+  #calculator-container { width: 70%; }
+}
+
+@media (max-width: 370px) {
+  #calculator-container { width: 80%; }
+}
+
+@media (max-width: 270px) {
+  #calculator-container { width: 90%; }
+}

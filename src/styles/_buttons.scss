@@ -1,0 +1,14 @@
+@import 'variables';
+
+/* BUTTONS */
+.btn {
+  background: $middle-gray;
+  color: $light-gray;
+  font-family: $main-font;
+  font-size: $button-font-size;
+  outline: none;
+  
+  &:hover, &:focus {
+    border: 1px solid $light-gray;
+  }
+}
